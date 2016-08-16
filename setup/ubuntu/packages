@@ -7,4 +7,6 @@ balihoo-batchmon
 curl
 password-gorilla
 git
+mailutils
+at
 

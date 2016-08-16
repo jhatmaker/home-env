@@ -1,0 +1,19 @@
+[Desktop Entry]
+Name=Batchmon
+GenericName=BalihooBatchmon
+Comment=View the status of Batchjobs 
+Type=Application
+Terminal=true
+Exec=~/bin/watch_batchmon
+
+[Desktop Action AppOnly]
+Name=App Only
+Exec=~/bin/watch_batchmon.apponly
+
+[Desktop Action Failures]
+Name=Failures
+Exec=~/bin/watch_batchmon.failures
+
+[Desktop Action Systems]
+Name=Systems
+Exec=~/bin/watch_batchmon.systemsonly
